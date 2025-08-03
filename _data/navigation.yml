@@ -55,3 +55,20 @@ en-AU:
   #<<: *DEFAULT_ES
 #es-CO:
   #<<: *DEFAULT_ES
+
+# Portuguese (Brazil)
+# -------------------
+pt-BR: &DEFAULT_PTBR
+  nav:
+    - title: "Serviços"
+      section: services
+    - title: "Portfólio"
+      section: portfolio
+    - title: "Sobre"
+      section: about
+    - title: "Linha do Tempo"
+      section: timeline
+    - title: "Equipe"
+      section: team
+    - title: "Contato"
+      section: contact
