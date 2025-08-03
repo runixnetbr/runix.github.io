@@ -12,9 +12,9 @@
 #en: &DEFAULT_EN
  # nav:
 
-<<: *DEFAULT_PT
+pt-BR: &DEFAULT_PT
 # Brazilian Portuguese
-pt-BR:
+  nav:
     - title: "Serviços"
       section: Serviços
     - title: "Portfólio"
