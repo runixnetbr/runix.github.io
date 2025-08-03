@@ -16,7 +16,7 @@
 # Brazilian Portuguese
 pt-BR:
     - title: "Serviços"
-      section: services
+      section: Serviços
     - title: "Portfólio"
       section: portfolio
     - title: "Sobre"
@@ -27,8 +27,7 @@ pt-BR:
       section: team
     - title: "Contato"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+
 en-US:
   <<: *DEFAULT_EN
 en-CA:
