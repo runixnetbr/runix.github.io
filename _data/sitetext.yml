@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Bem vindo a RUNIX Soluções em Tecnologia
-    text: Prazer em conhecê-lo!
-    button: Tell Me More
+    #title: Bem vindo a RUNIX Soluções em Tecnologia
+    #text: Prazer em conhecê-lo!
+    #button: Tell Me More
     buttonlink: "#services"
 
   services:
