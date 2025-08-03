@@ -9,11 +9,7 @@
 
 # English (default)
 # -----------------
-#en: &DEFAULT_EN
- # nav:
-
-pt-BR: &DEFAULT_PT
-# Brazilian Portuguese
+en: &DEFAULT_EN
   nav:
     - title: "Serviços"
       section: Serviços
