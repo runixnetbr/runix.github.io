@@ -9,8 +9,12 @@
 
 # English (default)
 # -----------------
-en: &DEFAULT_EN
-  nav:
+#en: &DEFAULT_EN
+ # nav:
+
+<<: *DEFAULT_PT
+# Brazilian Portuguese
+pt-BR:
     - title: "Serviços"
       section: services
     - title: "Portfólio"
