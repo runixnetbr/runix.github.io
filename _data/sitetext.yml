@@ -319,3 +319,140 @@ es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
+
+#PORTUGUESBR
+#--------------
+pt-BR: &DEFAULT_PT
+  header:
+    title: Bem-vindo à RUNIX!
+    text: É um prazer ter você aqui
+    button: Saiba mais
+    buttonlink: "#servicos"
+
+  services:
+    title: "Serviços"
+    text: "Conheça nossas soluções"
+    section: servicos
+    list:
+      - title: "Soluções em TI"
+        desc: "Gerenciamento, suporte e inovação em tecnologia para empresas modernas."
+        icon: fas fa-cogs
+      - title: "Desenvolvimento Web"
+        desc: "Criação de sites e sistemas eficientes, responsivos e sob medida para o seu negócio."
+        icon: fas fa-laptop-code
+      - title: "Consultoria Especializada"
+        desc: "Aconselhamento técnico para impulsionar a transformação digital da sua empresa."
+        icon: fas fa-user-tie
+
+  portfolio:
+    title: "Portfólio"
+    text: "Alguns dos nossos projetos realizados"
+    section: portfolio
+    closebutton: "Fechar Projeto"
+
+  timeline:
+    title: "Nossa Jornada"
+    text: "Conheça os marcos importantes da nossa história"
+    section: cronologia
+    events:
+      - title: "Fundação da RUNIX"
+        year: "2021"
+        desc: "Iniciamos nossa trajetória com foco em fornecer soluções tecnológicas eficientes e acessíveis."
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Primeiros Projetos"
+        year: "2022"
+        desc: "Desenvolvemos sistemas e sites personalizados para nossos primeiros clientes."
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Crescimento e Parcerias"
+        year: "2023"
+        desc: "Expandimos nossa equipe e firmamos parcerias estratégicas para oferecer mais valor."
+        image: assets/img/timeline/3.jpg
+        alt:
+      - title: "Presente e Futuro"
+        year: "2024"
+        desc: "Estamos prontos para novos desafios, sempre buscando inovação e excelência."
+        image: assets/img/timeline/4.jpg
+        alt:
+        align: right
+    end: "Faça parte <br> da nossa <br> história!"
+
+  about:
+    title: "Sobre a RUNIX"
+    text: "nossa trajetória"
+    body: "A RUNIX Soluções em Tecnologia é uma empresa comprometida com a excelência em serviços de TI, desenvolvimento de sistemas e suporte técnico. Atuamos com responsabilidade, inovação e proximidade com o cliente. **Markdown** é suportado."
+    section: about
+
+  clients:
+    section: clientes
+    max-height: 100px
+    horizontal-scrolling: ""
+    list:
+      - title: "Cliente 1"
+        url: "#"
+        logo: assets/img/clients/envato.jpg
+      - title: "Cliente 2"
+        url: "#"
+        logo: assets/img/clients/designmodo.jpg
+      - title: "Cliente 3"
+        url: "#"
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Cliente 4"
+        url: "#"
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "NOSSA EQUIPE"
+    text: "Profissionais dedicados e apaixonados por tecnologia"
+    subtext: Contamos com especialistas prontos para entregar o melhor da inovação para seu negócio.
+    section: equipe
+    people:
+      - name: "Rony Muniz"
+        role: "Fundador & CEO"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+          - url: https://github.com/runixnetbr
+            icon: fab fa-github
+      - name: "Membro 2"
+        role: "Desenvolvedor"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Membro 3"
+        role: "Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Fale Conosco"
+    text: "Envie uma mensagem ou entre em contato pelo WhatsApp!"
+    section: contato
+    name: "Nome*"
+    name-validation: "Por favor, informe seu nome."
+    email: "E-mail*"
+    email-validation: "Por favor, informe um e-mail válido."
+    phone: "Telefone*"
+    phone-validation: "Por favor, informe seu telefone."
+    message: "Mensagem*"
+    message-validation: "Por favor, escreva sua mensagem."
+    subject: "Nova mensagem via formulário de contato"
+    submit: "Enviar Mensagem"
+
+  footer:
+    legal: "Política de Privacidade"
+    social:
+      - url: https://github.com/runixnetbr
+        icon: "fab fa-github"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+
+pt:
+  <<: *DEFAULT_PT
