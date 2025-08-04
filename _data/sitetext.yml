@@ -26,7 +26,7 @@ en: &DEFAULT_EN
         icon: fas fa-save #find more at https://fontawesome.com/icons
       - title: "Virtualização"
         desc: "Uma solução de virtualização otimiza recursos, reduz custos com hardware e aumenta a disponibilidade dos seus sistemas."
-        icon: fa-server
+        icon: fas fa-server
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
