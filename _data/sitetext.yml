@@ -27,9 +27,9 @@ en: &DEFAULT_EN
       - title: "Virtualização"
         desc: "Uma solução de virtualização otimiza recursos, reduz custos com hardware e aumenta a disponibilidade dos seus sistemas."
         icon: fas fa-server
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Hardening de sistemas"
+        desc: "Técnicas de hardening reforça a segurança do sistema, eliminando vulnerabilidades e reduzindo riscos de invasões."
+        icon: fas shield-halved
 
   portfolio:
     title: "Portfolio"
