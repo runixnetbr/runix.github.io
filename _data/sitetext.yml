@@ -8,17 +8,17 @@
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
 
 # English (default)
-# -----------------
+# ------------------
 en: &DEFAULT_EN
   header:
-    #title: Bem vindo a RUNIX Soluções em Tecnologia
-    #text: Prazer em conhecê-lo!
-    #button: Tell Me More
+    title: "Bem-vindo"
+    text: " " 
+    button: Conheça-nos!
     buttonlink: "#servicos"
 
   services:
     title: "Soluções & Serviços"
-    #text: "Nossos Serviços & Soluções"
+    text: "Nossos Serviços & Soluções"
     section: servicos
     list:
       - title: "RUNIX Backup"
