@@ -27,9 +27,12 @@ en: &DEFAULT_EN
       - title: "Virtualização"
         desc: "Uma solução de virtualização otimiza recursos, reduz custos com hardware e aumenta a disponibilidade dos seus sistemas."
         icon: fas fa-server
-      - title: "Hardening de sistemas"
+      - title: "Hardening de Sistemas"
         desc: "Técnicas de hardening reforça a segurança do sistema, eliminando vulnerabilidades e reduzindo riscos de invasões."
         icon: fas fa-shield-alt
+      - title: "Monitoramento de Infraestrutura"
+        desc: "Nosso serviço de monitoramento garante visibilidade em tempo real, prevenindo falhas e melhorando o desempenho da sua infraestrutura."
+        icon: fas fa-tachometer-alt
 
   portfolio:
     title: "Portfolio"
