@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   nav:
     - title: "Serviços"
-      section: servicos
+      section: serviços
     - title: "Portfólio"
       section: portfolio
     - title: "Sobre"
