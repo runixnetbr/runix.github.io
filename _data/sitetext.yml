@@ -23,7 +23,7 @@ en: &DEFAULT_EN
     list:
       - title: "RUNIX Backup"
         desc: "Nossa solução de backup inteligente protege seus dados contra perdas causadas por ataques, furtos, incêndios e falhas."
-        icon: fas fa-save #find more at https://fontawesome.com/icons
+        icon: fa-solid fa-floppy-disk #find more at https://fontawesome.com/icons
       - title: "Responsive Design"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
