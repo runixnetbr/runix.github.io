@@ -17,7 +17,7 @@ en: &DEFAULT_EN
     buttonlink: "#servicos"
 
   services:
-    title: "Servicos"
+    title: "Serviços"
     text: "Lorem ipsum"
     section: serviços
     list:
