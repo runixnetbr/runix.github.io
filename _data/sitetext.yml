@@ -33,6 +33,12 @@ en: &DEFAULT_EN
       - title: "Monitoramento de Infraestrutura"
         desc: "Nosso serviço de monitoramento garante visibilidade em tempo real, prevenindo falhas e melhorando o desempenho da sua infraestrutura."
         icon: fas fa-chart-line
+      - title: "Suporte Técnico"
+        desc: "Oferecemos suporte técnico especializado para resolver problemas de TI rapidamente e manter seus sistemas funcionando sem interrupções."
+        icon: fas fa-headset
+      - title: "Gerenciamento de Infraestrutura"
+        desc: "Nosso serviço de gerenciamento de infraestrutura garante que seus sistemas estejam sempre atualizados, seguros e funcionando perfeitamente."
+        icon: fas fa-network-wired
 
   portfolio:
     title: "Portfolio"
