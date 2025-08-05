@@ -19,7 +19,7 @@ baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
 
 title      : RUNIX Soluções em Tecnologia
 email      : contato@runix.net.br #this is also the email contact forms will go to
-description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
+description: "Na RUNIX, somos especialistas em soluções de tecnologia da informação que garantem segurança, performance e alta disponibilidade para sua empresa. Atuamos com serviços estratégicos como backup inteligente, virtualização, hardening de sistemas, monitoramento e gerenciamento de infraestrutura, além de suporte técnico especializado. Nosso compromisso é proteger e otimizar seus ativos de TI, para que você possa focar no crescimento do seu negócio com tranquilidade e confiança. Com profissionais experientes e apaixonados por tecnologia, entregamos serviços sob medida, alinhados às melhores práticas do mercado, visando sempre eficiência, confiabilidade e inovação."
 author     : Rony Muniz
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
