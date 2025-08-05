@@ -13,16 +13,10 @@ en: &DEFAULT_EN
   nav:
     - title: "Serviços"
       section: servicos
-    - title: "Portfólio"
-      section: portfolio
-    - title: "Sobre"
-      section: about
-    - title: "Timeline"
-      section: timeline
-    - title: "Time"
-      section: team
     - title: "Contato"
       section: contact
+    - title: "Sobre"
+      section: about
 
 en-US:
   <<: *DEFAULT_EN
