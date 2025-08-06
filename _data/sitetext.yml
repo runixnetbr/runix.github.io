@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: "Oferecemos soluções completas para empresas que buscam crescer com eficiência, tecnologia e inovação."
-    text: " " 
+    text: "" 
     button: Conheça-nos!
     buttonlink: "#servicos"
 
