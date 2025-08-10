@@ -3,3 +3,32 @@
   font-size: 2.0rem !important;
   color: #FF4040 !important;
 }
+
+
+/* Para telas até 768px de largura (tablets e mobiles) */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;  /* Texto menor */
+  }
+  .navbar-brand::before {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+  }
+
+  /* Se tiver menu horizontal, torne-o vertical */
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  /* Ajuste o espaçamento geral para caber em telas pequenas */
+  body, html {
+    padding: 0 10px;
+  }
+}
+
+
+.navbar-brand {
+  font-size: 2rem;  /* ao invés de 32px */
+}
