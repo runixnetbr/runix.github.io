@@ -1,9 +1,0 @@
-.navbar-brand {
-    display: inline-flex;         /* Ícone e texto lado a lado */
-    align-items: center;          /* Alinha verticalmente */
-    font-family: "Merriweather", serif; /* Fonte tradicional */
-    font-size: 2rem;               /* Maior destaque */
-    font-weight: bold;             /* Negrito */
-    color: #f0e9e5;                /* Cor laranja */
-    text-decoration: none;         /* Remove sublinhado */
-}
