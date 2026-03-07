@@ -1,37 +1,109 @@
 ---
-layout: page
-title: Privacy Policy
+layout: default
+title: Política de Privacidade
 ---
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
-</div>
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).
+# Política de Privacidade
 
-**PERSONAL INFORMATION WE COLLECT**
+**RUNIX Soluções em Tecnologia**
+Última atualização: março de 2026
 
-{% if site.analytics.google %}
+---
 
-Automatically Collected (Google Analytics):
+## 1. Introdução
 
-When you visit the Site, we automatically receive information about your device from your browser, such as your IP address. As you browse the Site, we also collect information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”.
+A RUNIX Soluções em Tecnologia ("RUNIX", "nós" ou "nosso") respeita a privacidade de seus visitantes e clientes. Esta Política de Privacidade descreve como coletamos, usamos e protegemos as informações fornecidas ao entrar em contato conosco por meio do site **runix.net.br**.
 
-We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit http://www.allaboutcookies.org.
+Esta política está em conformidade com a **Lei Geral de Proteção de Dados Pessoais (LGPD) — Lei nº 13.709/2018**.
 
-We do this using Google Analytics: <https://www.google.com/intl/en/policies/privacy/>.
+---
 
-You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.
+## 2. Dados Coletados
 
-{% else %}
+Coletamos apenas os dados que você nos fornece voluntariamente ao entrar em contato:
 
-We do not collect any data about you or use any cookies.
+- **Nome** (quando informado)
+- **Endereço de e-mail**
+- **Número de telefone / WhatsApp** (quando informado)
+- **Conteúdo da mensagem** enviada
 
-{% endif %}
+Não coletamos dados de navegação, cookies de rastreamento, nem utilizamos ferramentas de análise que identifiquem visitantes de forma individual.
 
-**CHANGES**
+---
 
-We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons.
+## 3. Finalidade do Uso dos Dados
 
-**CONTACT US**
+Os dados coletados são utilizados exclusivamente para:
 
-For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+- Responder às suas dúvidas, solicitações e pedidos de orçamento
+- Prestar os serviços contratados
+- Manter comunicação relacionada ao atendimento em andamento
+
+Seus dados **não serão utilizados** para envio de publicidade não solicitada (spam) nem para fins diferentes dos descritos acima.
+
+---
+
+## 4. Compartilhamento de Dados
+
+A RUNIX **não compartilha, vende, aluga ou cede** seus dados pessoais a terceiros, parceiros comerciais ou qualquer outra parte externa.
+
+Seus dados ficam restritos à equipe interna da RUNIX exclusivamente para fins de atendimento.
+
+---
+
+## 5. Armazenamento e Segurança
+
+Adotamos medidas técnicas e organizacionais adequadas para proteger suas informações contra acesso não autorizado, perda ou uso indevido. As comunicações realizadas por WhatsApp e e-mail ficam armazenadas nas respectivas plataformas, sujeitas às políticas de privacidade do WhatsApp (Meta) e do provedor de e-mail utilizado.
+
+---
+
+## 6. Seus Direitos (LGPD)
+
+Nos termos da LGPD, você tem direito a:
+
+- **Confirmação** da existência de tratamento dos seus dados
+- **Acesso** aos dados que mantemos sobre você
+- **Correção** de dados incompletos, inexatos ou desatualizados
+- **Eliminação** dos dados, quando não houver obrigação legal de retenção
+- **Revogação do consentimento** a qualquer momento
+- **Portabilidade** dos dados, mediante solicitação
+
+Para exercer qualquer um desses direitos, entre em contato pelo e-mail **contato@runix.net.br**.
+
+---
+
+## 7. Base Legal para o Tratamento
+
+O tratamento dos dados pessoais coletados está fundamentado no **legítimo interesse** da RUNIX em responder às solicitações dos usuários (art. 7º, IX da LGPD) e, quando aplicável, no **consentimento** fornecido pelo próprio titular ao iniciar o contato.
+
+---
+
+## 8. Retenção dos Dados
+
+Mantemos seus dados pelo tempo necessário para atender à finalidade para a qual foram coletados ou para cumprir obrigações legais. Após esse período, os dados são eliminados de forma segura.
+
+---
+
+## 9. Links Externos
+
+O site da RUNIX pode conter links para plataformas externas (como WhatsApp). Não somos responsáveis pelas práticas de privacidade de terceiros. Recomendamos a leitura das respectivas políticas ao acessar outros serviços.
+
+---
+
+## 10. Alterações nesta Política
+
+Esta Política de Privacidade pode ser atualizada periodicamente. A data da última revisão estará sempre indicada no topo desta página. O uso continuado do site após alterações implica a aceitação da versão vigente.
+
+---
+
+## 11. Contato
+
+Para dúvidas, solicitações ou exercício dos seus direitos, entre em contato:
+
+- **E-mail:** contato@runix.net.br
+- **WhatsApp:** +55 (92) 99467-5374
+- **Horário de atendimento:** Segunda a Sexta, 8h às 18h
+
+---
+
+*RUNIX Soluções em Tecnologia — todos os direitos reservados.*
