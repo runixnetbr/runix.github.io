@@ -5,10 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>RUNIX Soluções em Tecnologia</title>
   <meta name="description" content="Infraestrutura, virtualização, backup, hardening e suporte técnico especializado. RUNIX — tecnologia que sustenta o seu negócio."/>
-  <meta property="og:title" content="RUNIX Soluções em Tecnologia"/>
-  <meta property="og:description" content="Infraestrutura, virtualização, backup e suporte técnico especializado para empresas."/>
-  <meta property="og:url" content="https://runix.net.br"/>
-  <meta property="og:type" content="website"/>
+
+  <!-- Open Graph (WhatsApp, LinkedIn, Facebook, Telegram) -->
+  <meta property="og:type"        content="website"/>
+  <meta property="og:url"         content="https://runix.net.br"/>
+  <meta property="og:site_name"   content="RUNIX Soluções em Tecnologia"/>
+  <meta property="og:title"       content="RUNIX — Soluções em Tecnologia"/>
+  <meta property="og:description" content="Infraestrutura, virtualização, backup, hardening e suporte técnico especializado para empresas. Tecnologia que sustenta o seu negócio."/>
+  <meta property="og:image"       content="https://runix.net.br/assets/img/og-image.png"/>
+  <meta property="og:image:width"  content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:alt"   content="RUNIX Soluções em Tecnologia — Infraestrutura, Virtualização, Backup e Suporte Técnico"/>
+  <meta property="og:locale"      content="pt_BR"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image"/>
+  <meta name="twitter:title"       content="RUNIX — Soluções em Tecnologia"/>
+  <meta name="twitter:description" content="Infraestrutura, virtualização, backup, hardening e suporte técnico especializado para empresas."/>
+  <meta name="twitter:image"       content="https://runix.net.br/assets/img/og-image.png"/>
+  <meta name="twitter:image:alt"   content="RUNIX Soluções em Tecnologia"/>
   <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -762,7 +777,7 @@
         <p class="sec-sub">Nossa equipe responde rápido. Sem compromisso.</p>
         <div class="contact-info-list">
           <div class="cinfo"><div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.53 2 2 0 0 1 3.6 1.35h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg></div><div><div class="cinfo-label">WhatsApp</div><div class="cinfo-val">+55 (92) 99467-5374</div></div></div>
-          <div class="cinfo"><div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><div class="cinfo-label">E-mail</div><div class="cinfo-val" id="email-display">contato@runix.net.br</div></div></div>
+          <div class="cinfo"><div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><div class="cinfo-label">E-mail</div><div class="cinfo-val" id="email-display">contato<!-- -->@<!-- -->runix.net.br</div></div></div>
           <div class="cinfo"><div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div><div class="cinfo-label">Atendimento</div><div class="cinfo-val">Segunda a Sexta, 8h – 18h</div></div></div>
         </div>
       </div>
@@ -906,7 +921,7 @@ setInterval(tickMonitor, 2500);
   const fl = document.getElementById('footer-email-link');
   if(fl){ fl.href = mailto; }
 
-  // Texto exibido no card de contato
+  // Texto do e-mail exibido
   const disp = document.getElementById('email-display');
   if(disp){ disp.textContent = email; }
 })();
