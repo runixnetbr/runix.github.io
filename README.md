@@ -1,15 +1,81 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+# RUNIX Soluções em Tecnologia
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the 
-[![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+> Site institucional da RUNIX — hospedado via GitHub Pages com Jekyll.
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo. You can also use a `CNAME` file and your own custom domain!
+🌐 **[runix.net.br](https://runix.net.br)**
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+---
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+## Sobre
+
+Site institucional da **RUNIX Soluções em Tecnologia**, empresa especializada em infraestrutura de TI, virtualização, backup, hardening, monitoramento e suporte técnico para empresas.
+
+---
+
+## Estrutura do Repositório
+
+```
+runix.github.io/
+├── index.html          # Página principal
+├── legal.md            # Política de Privacidade
+├── _config.yml         # Configurações do Jekyll
+├── _data/              # Dados YAML do Jekyll
+├── assets/
+│   └── img/
+│       ├── logo.png    # Logo da RUNIX
+│       └── favicon.ico
+├── CNAME               # Domínio personalizado (runix.net.br)
+└── README.md           # Este arquivo
+```
+
+---
+
+## Tecnologias
+
+- **Jekyll** — gerador de site estático
+- **GitHub Pages** — hospedagem gratuita
+- **Cloudflare** — DNS e proteção
+
+---
+
+## Desenvolvimento Local
+
+Para rodar o site localmente:
+
+```bash
+# Instalar dependências
+bundle install
+
+# Rodar servidor local
+bundle exec jekyll serve
+
+# Acesse em http://localhost:4000
+```
+
+> Requer Ruby e Bundler instalados. Veja o [Gemfile](Gemfile) para as versões utilizadas.
+
+---
+
+## Deploy
+
+O deploy é automático. Basta fazer push na branch `master`:
+
+```bash
+git add .
+git commit -m "sua mensagem"
+git push origin master
+```
+
+O GitHub Actions publica automaticamente em **runix.net.br** em instantes.
+
+---
+
+## Contato
+
+- 🌐 [runix.net.br](https://runix.net.br)
+- 📧 contato@runix.net.br
+- 💬 [WhatsApp](https://wa.me/5592994675374)
+
+---
+
+© 2026 RUNIX Soluções em Tecnologia
