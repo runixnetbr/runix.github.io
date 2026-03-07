@@ -27,13 +27,13 @@
       --lav-dim:      #6070c4;
       --lav-pale:     rgba(139,159,232,.12);
 
-      --bg:           #07090f;
-      --bg2:          #0d1120;
-      --bg3:          #111827;
-      --surface:      rgba(255,255,255,.04);
-      --surface2:     rgba(255,255,255,.07);
-      --border:       rgba(255,255,255,.08);
-      --border2:      rgba(139,159,232,.2);
+      --bg:           #141e38;
+      --bg2:          #1b2645;
+      --bg3:          #1f2d52;
+      --surface:      rgba(255,255,255,.09);
+      --surface2:     rgba(255,255,255,.14);
+      --border:       rgba(255,255,255,.16);
+      --border2:      rgba(139,159,232,.35);
 
       --text:         #f0f2ff;
       --text-mid:     rgba(240,242,255,.65);
@@ -77,7 +77,7 @@
       border-bottom: 1px solid transparent;
     }
     nav.scrolled {
-      background: rgba(7,9,15,.88);
+      background: rgba(20,30,56,.93);
       backdrop-filter: blur(20px);
       border-color: var(--border);
     }
@@ -135,7 +135,7 @@
     .nav-cta:hover { opacity: .88; transform: translateY(-1px); box-shadow: 0 8px 32px rgba(192,22,42,.4), 0 8px 32px rgba(26,63,204,.3) !important; }
     .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
     .hamburger span { display: block; width: 24px; height: 2px; background: var(--text); border-radius: 2px; transition: .3s; }
-    .mobile-menu { display: none; flex-direction: column; padding: 12px 0 20px; border-top: 1px solid var(--border); background: rgba(7,9,15,.96); backdrop-filter: blur(20px); }
+    .mobile-menu { display: none; flex-direction: column; padding: 12px 0 20px; border-top: 1px solid var(--border); background: rgba(20,30,56,.97); backdrop-filter: blur(20px); }
     .mobile-menu a { display: block; padding: 12px 28px; color: var(--text-mid); font-weight: 500; font-size: .95rem; }
     .mobile-menu .nav-cta { margin: 10px 28px 0; text-align: center; border-radius: var(--r); display: block; }
 
@@ -153,9 +153,9 @@
       filter: blur(90px);
       pointer-events: none;
     }
-    .orb-1 { width: 600px; height: 600px; background: radial-gradient(circle, rgba(192,22,42,.26) 0%, transparent 70%); top: 0; right: -10%; animation: orb-a 14s ease-in-out infinite; }
-    .orb-2 { width: 500px; height: 500px; background: radial-gradient(circle, rgba(26,63,204,.2) 0%, transparent 70%); bottom: 5%; left: -8%; animation: orb-b 18s ease-in-out infinite; }
-    .orb-3 { width: 280px; height: 280px; background: radial-gradient(circle, rgba(139,159,232,.14) 0%, transparent 70%); top: 50%; left: 42%; animation: orb-c 10s ease-in-out infinite; }
+    .orb-1 { width: 600px; height: 600px; background: radial-gradient(circle, rgba(192,22,42,.16) 0%, transparent 70%); top: 0; right: -10%; animation: orb-a 14s ease-in-out infinite; }
+    .orb-2 { width: 520px; height: 520px; background: radial-gradient(circle, rgba(26,63,204,.32) 0%, transparent 70%); bottom: 5%; left: -8%; animation: orb-b 18s ease-in-out infinite; }
+    .orb-3 { width: 320px; height: 320px; background: radial-gradient(circle, rgba(139,159,232,.22) 0%, transparent 70%); top: 50%; left: 42%; animation: orb-c 10s ease-in-out infinite; }
     @keyframes orb-a { 0%,100%{transform:translate(0,0) scale(1)} 33%{transform:translate(-40px,30px) scale(1.07)} 66%{transform:translate(20px,-20px) scale(.95)} }
     @keyframes orb-b { 0%,100%{transform:translate(0,0) scale(1)} 50%{transform:translate(30px,-40px) scale(1.1)} }
     @keyframes orb-c { 0%,100%{transform:translate(-50%,-50%) scale(1)} 50%{transform:translate(-50%,-50%) scale(1.4) ;opacity:.5} }
@@ -378,7 +378,7 @@
     .diff-layout { display:grid; grid-template-columns:1fr 1fr; gap:72px; align-items:center; }
     .diff-panel { background:var(--surface); border:1px solid var(--border2); border-radius:var(--r-xl); padding:42px; position:relative; overflow:hidden; }
     .diff-panel::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--red),var(--lavender),var(--blue)); }
-    .diff-panel-orb { position:absolute; bottom:-80px; right:-80px; width:250px; height:250px; background:radial-gradient(circle,rgba(26,63,204,.15) 0%,transparent 65%); pointer-events:none; }
+    .diff-panel-orb { position:absolute; bottom:-80px; right:-80px; width:250px; height:250px; background:radial-gradient(circle,rgba(26,63,204,.25) 0%,transparent 65%); pointer-events:none; }
     .diff-panel-title { font-family:var(--font-head); font-size:1.3rem; font-weight:900; color:var(--text); margin-bottom:8px; position:relative; z-index:1; }
     .diff-panel-sub { font-size:.85rem; color:var(--text-dim); font-weight:300; margin-bottom:28px; position:relative; z-index:1; }
     .diff-facts { display:flex; flex-direction:column; gap:12px; }
@@ -435,7 +435,7 @@
     .cinfo-val { font-size:.92rem; color:var(--text); font-weight:500; }
     .contact-panel { background:var(--surface); border:1px solid var(--border2); border-radius:var(--r-xl); padding:40px; position:relative; overflow:hidden; }
     .contact-panel::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,var(--red),var(--lavender),var(--blue)); }
-    .cp-orb { position:absolute; top:-60px; right:-60px; width:200px; height:200px; background:radial-gradient(circle,rgba(192,22,42,.12) 0%,transparent 70%); pointer-events:none; }
+    .cp-orb { position:absolute; top:-60px; right:-60px; width:200px; height:200px; background:radial-gradient(circle,rgba(26,63,204,.2) 0%,transparent 70%); pointer-events:none; }
     .cp-title { font-family:var(--font-head); font-size:1.3rem; font-weight:900; color:var(--text); margin-bottom:6px; position:relative; z-index:1; }
     .cp-sub { font-size:.85rem; color:var(--text-dim); font-weight:300; margin-bottom:28px; position:relative; z-index:1; }
     .wa-btn { display:flex; align-items:center; justify-content:center; gap:10px; background:#25d366; color:white; padding:16px; border-radius:var(--r); font-family:var(--font-head); font-weight:700; font-size:.95rem; transition:background .2s,transform .2s,box-shadow .2s; box-shadow:0 4px 20px rgba(37,211,102,.25); margin-bottom:12px; position:relative; z-index:1; }
@@ -584,15 +584,15 @@
             <div class="hc-live"><div class="hc-live-dot"></div>Ao vivo</div>
           </div>
           <div class="hc-metrics">
-            <div class="hc-metric"><div class="hc-ml">CPU</div><div class="hc-mv l">34%</div></div>
-            <div class="hc-metric"><div class="hc-ml">Uptime</div><div class="hc-mv g">99.9%</div></div>
-            <div class="hc-metric"><div class="hc-ml">Alertas</div><div class="hc-mv g">0</div></div>
+            <div class="hc-metric"><div class="hc-ml">CPU</div><div class="hc-mv l" id="mon-cpu">34%</div></div>
+            <div class="hc-metric"><div class="hc-ml">Uptime</div><div class="hc-mv g" id="mon-uptime">99.9%</div></div>
+            <div class="hc-metric"><div class="hc-ml">Alertas</div><div class="hc-mv g" id="mon-alerts">0</div></div>
           </div>
           <div class="hc-bars">
-            <div><div class="hc-bi"><span>Armazenamento</span><span>52%</span></div><div class="hc-bt"><div class="hc-bf r" style="width:52%"></div></div></div>
-            <div><div class="hc-bi"><span>Largura de Banda</span><span>31%</span></div><div class="hc-bt"><div class="hc-bf b" style="width:31%"></div></div></div>
-            <div><div class="hc-bi"><span>RAM</span><span>68%</span></div><div class="hc-bt"><div class="hc-bf lv" style="width:68%"></div></div></div>
-            <div><div class="hc-bi"><span>Backup diário</span><span>100%</span></div><div class="hc-bt"><div class="hc-bf gn" style="width:100%"></div></div></div>
+            <div><div class="hc-bi"><span>Armazenamento</span><span id="mon-storage-txt">52%</span></div><div class="hc-bt"><div class="hc-bf r" id="mon-storage-bar" style="width:52%"></div></div></div>
+            <div><div class="hc-bi"><span>Largura de Banda</span><span id="mon-bw-txt">31%</span></div><div class="hc-bt"><div class="hc-bf b" id="mon-bw-bar" style="width:31%"></div></div></div>
+            <div><div class="hc-bi"><span>RAM</span><span id="mon-ram-txt">68%</span></div><div class="hc-bt"><div class="hc-bf lv" id="mon-ram-bar" style="width:68%"></div></div></div>
+            <div><div class="hc-bi"><span>Backup diário</span><span id="mon-bkp-txt">100%</span></div><div class="hc-bt"><div class="hc-bf gn" id="mon-bkp-bar" style="width:100%"></div></div></div>
           </div>
           <div class="hc-ft">
             <div class="hc-fi"><strong>Último backup:</strong> há 2h</div>
@@ -762,7 +762,7 @@
         <p class="sec-sub">Nossa equipe responde rápido. Sem compromisso.</p>
         <div class="contact-info-list">
           <div class="cinfo"><div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.53 2 2 0 0 1 3.6 1.35h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg></div><div><div class="cinfo-label">WhatsApp</div><div class="cinfo-val">+55 (92) 99467-5374</div></div></div>
-          <div class="cinfo"><div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><div class="cinfo-label">E-mail</div><div class="cinfo-val">contato@runix.net.br</div></div></div>
+          <div class="cinfo"><div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><div class="cinfo-label">E-mail</div><div class="cinfo-val"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1c7f7372687d68735c6e6972756432727968327e6e">[email&#160;protected]</a></div></div></div>
           <div class="cinfo"><div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div><div class="cinfo-label">Atendimento</div><div class="cinfo-val">Segunda a Sexta, 8h – 18h</div></div></div>
         </div>
       </div>
@@ -775,7 +775,7 @@
           Conversar pelo WhatsApp
         </a>
         <div class="or-sep">— ou —</div>
-        <a href="mailto:contato@runix.net.br" class="email-btn">
+        <a href="/cdn-cgi/l/email-protection#f695999882978299b68483989f8ed8989382d89484" class="email-btn">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           Enviar e-mail
         </a>
@@ -817,40 +817,33 @@
       <p class="footer-copy">© 2026 RUNIX Soluções em Tecnologia. Todos os direitos reservados.</p>
       <div class="footer-blinks">
         <a href="/legal">Privacidade</a>
-        <a href="mailto:contato@runix.net.br">Contato</a>
+        <a href="/cdn-cgi/l/email-protection#a5c6cacbd1c4d1cae5d7d0cbccdd8bcbc0d18bc7d7">Contato</a>
       </div>
     </div>
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 /* Particles */
-const C = document.getElementById('bg-canvas');
-const X = C.getContext('2d');
-let W, H, pts = [];
-function resize(){ W=C.width=window.innerWidth; H=C.height=window.innerHeight; }
-resize(); window.addEventListener('resize', resize);
-const COLS = ['rgba(192,22,42,','rgba(26,63,204,','rgba(139,159,232,'];
+const C=document.getElementById('bg-canvas'),X=C.getContext('2d');
+let W,H,pts=[];
+function resize(){W=C.width=window.innerWidth;H=C.height=window.innerHeight;}
+resize();window.addEventListener('resize',resize);
+const COLS=['rgba(192,22,42,','rgba(26,63,204,','rgba(139,159,232,'];
 function Pt(){
-  this.reset = ()=>{
-    this.x=Math.random()*W; this.y=Math.random()*H;
-    this.r=Math.random()*1.4+.3;
-    this.vx=(Math.random()-.5)*.28; this.vy=(Math.random()-.5)*.28;
-    this.c=COLS[Math.floor(Math.random()*3)];
-    this.a=Math.random()*.3+.05;
-  };
+  this.reset=()=>{this.x=Math.random()*W;this.y=Math.random()*H;this.r=Math.random()*1.4+.3;this.vx=(Math.random()-.5)*.28;this.vy=(Math.random()-.5)*.28;this.c=COLS[Math.floor(Math.random()*3)];this.a=Math.random()*.3+.05;};
   this.reset();
-  this.update=()=>{ this.x+=this.vx; this.y+=this.vy; if(this.x<0||this.x>W||this.y<0||this.y>H) this.reset(); };
-  this.draw=()=>{ X.beginPath(); X.arc(this.x,this.y,this.r,0,Math.PI*2); X.fillStyle=this.c+this.a+')'; X.fill(); };
+  this.update=()=>{this.x+=this.vx;this.y+=this.vy;if(this.x<0||this.x>W||this.y<0||this.y>H)this.reset();};
+  this.draw=()=>{X.beginPath();X.arc(this.x,this.y,this.r,0,Math.PI*2);X.fillStyle=this.c+this.a+')';X.fill();};
 }
-for(let i=0;i<110;i++) pts.push(new Pt());
+for(let i=0;i<110;i++)pts.push(new Pt());
 function frame(){
   X.clearRect(0,0,W,H);
   for(let i=0;i<pts.length;i++){
-    pts[i].update(); pts[i].draw();
+    pts[i].update();pts[i].draw();
     for(let j=i+1;j<pts.length;j++){
-      const dx=pts[i].x-pts[j].x, dy=pts[i].y-pts[j].y, d=Math.sqrt(dx*dx+dy*dy);
-      if(d<90){ X.beginPath(); X.moveTo(pts[i].x,pts[i].y); X.lineTo(pts[j].x,pts[j].y); X.strokeStyle=`rgba(139,159,232,${.04*(1-d/90)})`; X.lineWidth=.5; X.stroke(); }
+      const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y,d=Math.sqrt(dx*dx+dy*dy);
+      if(d<90){X.beginPath();X.moveTo(pts[i].x,pts[i].y);X.lineTo(pts[j].x,pts[j].y);X.strokeStyle=`rgba(139,159,232,${.04*(1-d/90)})`;X.lineWidth=.5;X.stroke();}
     }
   }
   requestAnimationFrame(frame);
@@ -862,13 +855,42 @@ const nav=document.getElementById('navbar');
 window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>20),{passive:true});
 
 /* Mobile menu */
-const ham=document.getElementById('hamburger'), mob=document.getElementById('mobileMenu');
+const ham=document.getElementById('hamburger'),mob=document.getElementById('mobileMenu');
 ham.addEventListener('click',()=>mob.classList.toggle('open'));
-function closeMobile(){ mob.classList.remove('open'); }
+function closeMobile(){mob.classList.remove('open');}
 
 /* Scroll reveal */
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');}),{threshold:.1,rootMargin:'0px 0px -32px 0px'});
 document.querySelectorAll('.fade-up').forEach(el=>io.observe(el));
+
+/* ── Live Monitor ── */
+const mon = {
+  cpu:     { val:34,  min:10, max:75, speed:1.2,  elTxt: document.getElementById('mon-cpu'),         fmt: v=>v.toFixed(0)+'%' },
+  bw:      { val:31,  min:6,  max:68, speed:1.8,  elTxt: document.getElementById('mon-bw-txt'),      elBar: document.getElementById('mon-bw-bar'),      fmt: v=>v.toFixed(0)+'%' },
+  ram:     { val:68,  min:42, max:90, speed:0.7,  elTxt: document.getElementById('mon-ram-txt'),     elBar: document.getElementById('mon-ram-bar'),     fmt: v=>v.toFixed(0)+'%' },
+  storage: { val:52,  min:50, max:56, speed:0.03, elTxt: document.getElementById('mon-storage-txt'),elBar: document.getElementById('mon-storage-bar'), fmt: v=>v.toFixed(0)+'%' },
+};
+const uptimeEl = document.getElementById('mon-uptime');
+const cpuEl    = document.getElementById('mon-cpu');
+
+function tickMonitor(){
+  Object.values(mon).forEach(m=>{
+    m.val += (Math.random()-.5)*m.speed*2;
+    m.val = Math.max(m.min, Math.min(m.max, m.val));
+    if(m.elTxt) m.elTxt.textContent = m.fmt(m.val);
+    if(m.elBar) m.elBar.style.width = m.val.toFixed(1)+'%';
+  });
+  // CPU color hint
+  const cpu = mon.cpu.val;
+  if(cpuEl) cpuEl.className = 'hc-mv '+(cpu<50?'l':cpu<70?'l':'r');
+  // Uptime very slowly inches up
+  if(uptimeEl){
+    const cur = parseFloat(uptimeEl.textContent)||99.9;
+    const next = Math.min(99.99, cur+0.001);
+    uptimeEl.textContent = next.toFixed(1)+'%';
+  }
+}
+setInterval(tickMonitor, 2500);
 </script>
 </body>
 </html>
